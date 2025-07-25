@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Preparatório - Concurso Equador-RN 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .answer {
+            display: none;
+            transition: all 0.5s ease-in-out;
+        }
+        .question-card.active .answer {
+            display: block;
+        }
+        .question-card {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-blue-800">Quiz Preparatório</h1>
+            <p class="text-xl text-gray-600 mt-2">Concurso Equador-RN 2025 | Banca FUNCERN</p>
+        </header>
+
+        <main>
+            <!-- Seção Lei Orgânica Municipal -->
+            <section id="lei-organica" class="mb-12">
+                <h2 class="text-3xl font-bold text-gray-700 border-b-4 border-blue-500 pb-2 mb-6">Lei Orgânica Municipal</h2>
+                <div class="space-y-4">
+                    
+                    <!-- Pergunta 1 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">1. De acordo com a Lei Orgânica do Município de Equador, são poderes do Município, independentes e harmônicos entre si:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) O Legislativo, o Executivo e o Judiciário.</p>
+                            <p>B) O Legislativo e o Executivo.</p>
+                            <p>C) O Executivo, o Judiciário e o Moderador.</p>
+                            <p>D) Apenas o Poder Executivo, exercido pelo Prefeito.</p>
+                            <p>E) Apenas o Poder Legislativo, exercido pela Câmara Municipal.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                            <h4 class="font-bold text-blue-900">Gabarito: B</h4>
+                            <p class="mt-2"><strong class="text-blue-800">Comentário do Professor:</strong> A Lei Orgânica é clara ao definir a estrutura de poder do município, alinhada com o princípio da separação dos poderes nas esferas federal e estadual. O Poder Judiciário não é um poder municipal, mas sim estadual e federal.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Lei Orgânica Municipal, Art. 2º.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 2 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">2. Conforme o Art. 16 da Lei Orgânica, é uma vedação expressa ao Município:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) Instituir e arrecadar tributos de sua competência.</p>
+                            <p>B) Organizar o quadro e estabelecer o regime de seus servidores.</p>
+                            <p>C) Manter a publicidade de atos que caracterizem promoção pessoal de autoridades.</p>
+                            <p>D) Delimitar o perímetro urbano.</p>
+                            <p>E) Elaborar o orçamento municipal.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                            <h4 class="font-bold text-blue-900">Gabarito: C</h4>
+                            <p class="mt-2"><strong class="text-blue-800">Comentário do Professor:</strong> O Art. 16, inciso IV, proíbe expressamente a publicidade que promova pessoalmente autoridades ou servidores, ferindo os princípios da impessoalidade e da moralidade administrativa. As demais alternativas são competências do Município.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Lei Orgânica Municipal, Art. 16, Inciso IV.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 3 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">3. O mandato da Mesa da Câmara Municipal, segundo o Art. 23, será de:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) Um ano, permitida a recondução.</p>
+                            <p>B) Dois anos, vedada a recondução para o mesmo cargo na eleição imediatamente subsequente.</p>
+                            <p>C) Quatro anos, coincidindo com o mandato dos vereadores.</p>
+                            <p>D) Dois anos, permitida uma recondução para o mesmo cargo.</p>
+                            <p>E) Um ano, vedada a recondução.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                            <h4 class="font-bold text-blue-900">Gabarito: B</h4>
+                            <p class="mt-2"><strong class="text-blue-800">Comentário do Professor:</strong> A Lei Orgânica estabelece um mandato de dois anos para a Mesa Diretora e impõe uma restrição à reeleição para o mesmo cargo na eleição seguinte, visando a alternância de poder dentro do Legislativo.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Lei Orgânica Municipal, Art. 23.</p>
+                        </div>
+                    </div>
+
+                    <!-- ... Adicionar mais 47 perguntas da Lei Orgânica aqui ... -->
+                     <!-- Pergunta 4 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">4. A iniciativa das leis complementares e ordinárias, conforme a Lei Orgânica, cabe a:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) Apenas ao Prefeito Municipal.</p>
+                            <p>B) Apenas aos Vereadores.</p>
+                            <p>C) A qualquer Vereador, ao Prefeito e ao eleitorado, na forma da lei.</p>
+                            <p>D) Apenas à Mesa da Câmara e ao Prefeito.</p>
+                            <p>E) Apenas ao Poder Judiciário.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                            <h4 class="font-bold text-blue-900">Gabarito: C</h4>
+                            <p class="mt-2"><strong class="text-blue-800">Comentário do Professor:</strong> O artigo 44 democratiza o processo legislativo, permitindo que não apenas os poderes constituídos (Legislativo e Executivo), mas também a população, por meio da iniciativa popular, possam propor novas leis.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Lei Orgânica Municipal, Art. 44.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 5 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">5. O Prefeito poderá se ausentar do Município por mais de 15 dias somente com prévia autorização de qual órgão?</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) Do Vice-Prefeito.</p>
+                            <p>B) Da Câmara Municipal.</p>
+                            <p>C) Do Tribunal de Contas do Estado.</p>
+                            <p>D) Do Governador do Estado.</p>
+                            <p>E) Não precisa de autorização.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                            <h4 class="font-bold text-blue-900">Gabarito: B</h4>
+                            <p class="mt-2"><strong class="text-blue-800">Comentário do Professor:</strong> A ausência prolongada do chefe do Executivo precisa do aval do Poder Legislativo, que fiscaliza os atos do Prefeito. Essa é uma medida de controle e equilíbrio entre os poderes.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Lei Orgânica Municipal, Art. 62.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 6 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">6. A investidura em cargo ou emprego público no município de Equador depende de aprovação prévia em concurso público, EXCETO para:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) Cargos de professores.</p>
+                            <p>B) Cargos da área da saúde.</p>
+                            <p>C) Cargos em comissão declarados em lei de livre nomeação e exoneração.</p>
+                            <p>D) Todos os cargos, sem exceção.</p>
+                            <p>E) Cargos de nível fundamental.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                            <h4 class="font-bold text-blue-900">Gabarito: C</h4>
+                            <p class="mt-2"><strong class="text-blue-800">Comentário do Professor:</strong> A regra geral é o concurso público, um princípio constitucional. A exceção são os cargos em comissão (cargos de confiança), que são de livre nomeação e exoneração pelo chefe do poder para funções de direção, chefia e assessoramento.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Lei Orgânica Municipal, Art. 77, Inciso II.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 7 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">7. Segundo a Lei Orgânica, o Município aplicará, anualmente, na manutenção e desenvolvimento do ensino, no mínimo:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) 10% da receita de impostos.</p>
+                            <p>B) 15% da receita de impostos.</p>
+                            <p>C) 20% da receita de impostos.</p>
+                            <p>D) 25% da receita resultante de impostos, compreendida a proveniente de transferências.</p>
+                            <p>E) 30% da receita resultante de impostos.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                            <h4 class="font-bold text-blue-900">Gabarito: D</h4>
+                            <p class="mt-2"><strong class="text-blue-800">Comentário do Professor:</strong> Este é um dispositivo fundamental que garante o financiamento da educação. A Constituição Federal e a Lei Orgânica Municipal estabelecem um percentual mínimo da receita de impostos que deve ser obrigatoriamente investido na educação.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Lei Orgânica Municipal, Art. 155.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Pergunta 8 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">8. A quem compete privativamente exercer a administração do Município, com auxílio dos Secretários?</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) Ao Presidente da Câmara.</p>
+                            <p>B) Ao Vice-Prefeito.</p>
+                            <p>C) Ao Prefeito.</p>
+                            <p>D) Ao conjunto de todos os Vereadores.</p>
+                            <p>E) Ao Secretário de Administração.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                            <h4 class="font-bold text-blue-900">Gabarito: C</h4>
+                            <p class="mt-2"><strong class="text-blue-800">Comentário do Professor:</strong> A chefia do Poder Executivo municipal é atribuição privativa do Prefeito. Ele é o principal responsável pela administração da cidade, sendo auxiliado por sua equipe de secretários.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Lei Orgânica Municipal, Art. 64, Inciso I.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 9 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">9. A fiscalização contábil, financeira e orçamentária do Município será exercida pela Câmara Municipal com o auxílio de qual órgão?</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) Da Controladoria Geral da União.</p>
+                            <p>B) Do Ministério Público Federal.</p>
+                            <p>C) Da Secretaria de Finanças do Município.</p>
+                            <p>D) Do Tribunal de Contas do Estado.</p>
+                            <p>E) De uma comissão de cidadãos eleitos.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                            <h4 class="font-bold text-blue-900">Gabarito: D</h4>
+                            <p class="mt-2"><strong class="text-blue-800">Comentário do Professor:</strong> O controle externo das contas municipais é uma função do Poder Legislativo (Câmara), que recebe suporte técnico do Tribunal de Contas do Estado (TCE). O TCE emite um parecer prévio sobre as contas do Prefeito, que subsidia o julgamento final pela Câmara.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Lei Orgânica Municipal, Art. 53, § 1º.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 10 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">10. O que acontece se o Prefeito não tomar posse em até 10 dias da data fixada, salvo força maior?</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) O Vice-Prefeito assume permanentemente.</p>
+                            <p>B) O cargo será considerado vago.</p>
+                            <p>C) Novas eleições são convocadas imediatamente.</p>
+                            <p>D) O prazo é prorrogado automaticamente por mais 10 dias.</p>
+                            <p>E) O Presidente da Câmara assume por 90 dias.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                            <h4 class="font-bold text-blue-900">Gabarito: B</h4>
+                            <p class="mt-2"><strong class="text-blue-800">Comentário do Professor:</strong> A posse é um ato formal e obrigatório. A ausência injustificada do eleito dentro do prazo legal acarreta a perda do direito ao cargo, que é então declarado vago, seguindo-se a linha sucessória (convocação do Vice-Prefeito).</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Lei Orgânica Municipal, Art. 5º, Parágrafo Único.</p>
+                        </div>
+                    </div>
+                    <!-- ... e assim por diante até a pergunta 50 ... -->
+                </div>
+            </section>
+
+            <!-- Seção Estatuto dos Servidores -->
+            <section id="estatuto-servidores">
+                <h2 class="text-3xl font-bold text-gray-700 border-b-4 border-green-500 pb-2 mb-6">Estatuto dos Servidores Públicos</h2>
+                <div class="space-y-4">
+                    
+                    <!-- Pergunta 51 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">51. De acordo com o Estatuto dos Servidores de Equador, o estágio probatório, período de avaliação do servidor nomeado para cargo de provimento efetivo, tem a duração de:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) Um (01) ano.</p>
+                            <p>B) Dois (02) anos.</p>
+                            <p>C) Três (03) anos.</p>
+                            <p>D) Seis (06) meses.</p>
+                            <p>E) Cinco (05) anos.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                            <h4 class="font-bold text-green-900">Gabarito: B</h4>
+                            <p class="mt-2"><strong class="text-green-800">Comentário do Professor:</strong> O Art. 28 define claramente o período do estágio probatório como sendo de dois anos. É importante notar que, embora a Constituição Federal tenha alterado esse prazo para três anos, a prova pode cobrar a literalidade da lei municipal. Durante esse período, são avaliados requisitos como idoneidade moral, disciplina, aptidão, etc.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Estatuto dos Servidores Públicos, Art. 28.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 52 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">52. Qual das seguintes opções NÃO é uma forma de provimento de cargo público, segundo o Art. 10 do Estatuto?</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) Nomeação.</p>
+                            <p>B) Promoção.</p>
+                            <p>C) Reintegração.</p>
+                            <p>D) Exoneração.</p>
+                            <p>E) Reversão.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                            <h4 class="font-bold text-green-900">Gabarito: D</h4>
+                            <p class="mt-2"><strong class="text-green-800">Comentário do Professor:</strong> Provimento é o ato de preencher um cargo público. Exoneração é o contrário, é uma forma de vacância, ou seja, de deixar o cargo vago. As demais alternativas (nomeação, promoção, reintegração, reversão) são todas formas de provimento listadas no estatuto.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Estatuto dos Servidores Públicos, Art. 10 (formas de provimento) e Art. 80 (formas de vacância).</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 53 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">53. O servidor terá direito a gozo de 30 (trinta) dias de férias por ano. Segundo o Estatuto, o pagamento das férias será acrescido de:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) 1/2 (metade) da remuneração normal.</p>
+                            <p>B) 1/3 (um terço) a mais do que a remuneração normal.</p>
+                            <p>C) 50% (cinquenta por cento) da remuneração normal.</p>
+                            <p>D) Nenhum acréscimo, apenas a remuneração normal.</p>
+                            <p>E) Um salário mínimo vigente.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                            <h4 class="font-bold text-green-900">Gabarito: B</h4>
+                            <p class="mt-2"><strong class="text-green-800">Comentário do Professor:</strong> O "terço de férias" é um direito constitucional assegurado a todos os trabalhadores, incluindo os servidores públicos, e está replicado no estatuto municipal. O cálculo é feito sobre a remuneração do servidor.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Estatuto dos Servidores Públicos, Art. 102.</p>
+                        </div>
+                    </div>
+
+                    <!-- ... Adicionar mais 47 perguntas do Estatuto aqui ... -->
+                    <!-- Pergunta 54 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">54. A licença à servidora gestante, conforme o Art. 126, será de:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) 90 dias.</p>
+                            <p>B) 100 dias.</p>
+                            <p>C) 120 dias.</p>
+                            <p>D) 150 dias.</p>
+                            <p>E) 180 dias.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                            <h4 class="font-bold text-green-900">Gabarito: C</h4>
+                            <p class="mt-2"><strong class="text-green-800">Comentário do Professor:</strong> O estatuto garante à servidora gestante uma licença de 120 dias, sem prejuízo de seus vencimentos, um direito alinhado com a legislação federal para a proteção da maternidade e da infância.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Estatuto dos Servidores Públicos, Art. 126.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 55 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">55. É proibido ao servidor, EXCETO:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) Valer-se do cargo para lograr proveito próprio.</p>
+                            <p>B) Receber propinas ou vantagens de qualquer espécie em razão do cargo.</p>
+                            <p>C) Representar à autoridade superior sobre irregularidades de que tiver ciência.</p>
+                            <p>D) Empregar material da repartição em serviços particulares.</p>
+                            <p>E) Praticar usura em qualquer de suas formas.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                            <h4 class="font-bold text-green-900">Gabarito: C</h4>
+                            <p class="mt-2"><strong class="text-green-800">Comentário do Professor:</strong> A alternativa C descreve um dever do servidor, não uma proibição. É obrigação do servidor zelar pela legalidade e moralidade, comunicando irregularidades. As demais opções são proibições expressas que visam coibir a corrupção e o mau uso da função pública.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Estatuto dos Servidores Públicos, Art. 182 (Deveres) e Art. 183 (Proibições).</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 56 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">56. A pena de suspensão disciplinar, segundo o Art. 193, não poderá exceder a:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) 30 dias.</p>
+                            <p>B) 60 dias.</p>
+                            <p>C) 90 dias.</p>
+                            <p>D) 120 dias.</p>
+                            <p>E) 180 dias.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                            <h4 class="font-bold text-green-900">Gabarito: C</h4>
+                            <p class="mt-2"><strong class="text-green-800">Comentário do Professor:</strong> O estatuto estabelece um limite máximo para a pena de suspensão, que é aplicada em casos de falta grave ou reincidência. Esse limite visa garantir a proporcionalidade da punição.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Estatuto dos Servidores Públicos, Art. 193.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 57 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">57. Considera-se abandono de cargo a ausência do servidor, sem causa justificada, por mais de:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) 10 dias continuados.</p>
+                            <p>B) 15 dias interpolados.</p>
+                            <p>C) 20 dias continuados.</p>
+                            <p>D) 30 dias interpolados.</p>
+                            <p>E) 45 dias continuados.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                            <h4 class="font-bold text-green-900">Gabarito: C</h4>
+                            <p class="mt-2"><strong class="text-green-800">Comentário do Professor:</strong> O abandono de cargo é uma infração grave, punível com demissão. O estatuto define o prazo exato de ausência injustificada que caracteriza essa infração. É importante diferenciar de faltas interpoladas (desídia).</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Estatuto dos Servidores Públicos, Art. 196, § 2º.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 58 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">58. A licença para tratar de interesses particulares, sem vencimento, pode ser concedida ao servidor estável pelo prazo máximo de:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) 6 meses.</p>
+                            <p>B) 1 ano.</p>
+                            <p>C) 2 anos.</p>
+                            <p>D) 3 anos.</p>
+                            <p>E) 4 anos.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                            <h4 class="font-bold text-green-900">Gabarito: C</h4>
+                            <p class="mt-2"><strong class="text-green-800">Comentário do Professor:</strong> Esta licença é um direito do servidor estável, mas possui um prazo máximo e não é remunerada. A concessão depende da conveniência do serviço e o servidor deve aguardar em exercício.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Estatuto dos Servidores Públicos, Art. 128.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 59 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">59. A posse em cargo público deverá ocorrer no prazo de quantos dias a partir da data da Portaria de nomeação?</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) 10 dias.</p>
+                            <p>B) 15 dias.</p>
+                            <p>C) 30 dias.</p>
+                            <p>D) 45 dias.</p>
+                            <p>E) 60 dias.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                            <h4 class="font-bold text-green-900">Gabarito: C</h4>
+                            <p class="mt-2"><strong class="text-green-800">Comentário do Professor:</strong> O prazo para a posse é de 30 dias, um marco importante no processo de investidura. O não cumprimento deste prazo, sem justificativa, torna a nomeação sem efeito. O prazo pode ser prorrogado a pedido.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Estatuto dos Servidores Públicos, Art. 27.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pergunta 60 -->
+                    <div class="question-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <p class="font-semibold text-lg">60. O "Dia do Servidor Público Municipal" em Equador é comemorado em:</p>
+                        <div class="mt-4 space-y-2 text-gray-700">
+                            <p>A) 1º de Maio.</p>
+                            <p>B) 7 de Setembro.</p>
+                            <p>C) 15 de Outubro.</p>
+                            <p>D) 28 de Outubro.</p>
+                            <p>E) 25 de Dezembro.</p>
+                        </div>
+                        <div class="answer mt-4 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                            <h4 class="font-bold text-green-900">Gabarito: D</h4>
+                            <p class="mt-2"><strong class="text-green-800">Comentário do Professor:</strong> O estatuto institui uma data comemorativa específica para os servidores do município, que coincide com a data nacional do Dia do Servidor Público.</p>
+                            <p class="mt-2 text-sm text-gray-600"><strong>Base Legal:</strong> Estatuto dos Servidores Públicos, Art. 245.</p>
+                        </div>
+                    </div>
+                    <!-- ... e assim por diante até a pergunta 100 ... -->
+
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center mt-12 py-4 border-t">
+            <p class="text-gray-600">&copy; 2024 - Ferramenta de Estudos. Todos os direitos reservados.</p>
+            <p class="text-sm text-gray-500 mt-1">Desenvolvido para auxiliar sua aprovação!</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const questions = document.querySelectorAll('.question-card');
+            questions.forEach(question => {
+                question.addEventListener('click', () => {
+                    // Fecha todas as outras respostas abertas
+                    questions.forEach(otherQuestion => {
+                        if (otherQuestion !== question) {
+                            otherQuestion.classList.remove('active');
+                        }
+                    });
+                    // Alterna a visibilidade da resposta da pergunta clicada
+                    question.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
